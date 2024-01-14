@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'cormorant_garamond';
+      src: url('../assests/fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  
+    src: url('../assests/fonts/opensans/OpenSans-Bold-webfont.ttf') format('truetype');   
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+    background: url(../assests/images/beautiful-shot-sand-dunes.jpg) no-repeat;
+    background-size: 100% 100%; 
+    margin: 0% !important;
+    
+    }
+
+#about {
+  margin: 0% !important;
+  background-size: 180% 180% !important;
+ 
+}
+
+html,body { overflow-x: hidden !important;}
+
+.row {
+  padding-right: 0px !important;
+  margin-right: 0px !important;
+}
+
+h1 {
+    font-family: 'OpenSans-Bold', sans-serif !important;
+    font-size: 7vw !important;
+}
+h2{
+  font-family: 'OpenSans-Bold', sans-serif !important;
+}
+h3 {
+  font-family: 'cormorant_garamond', serif !important;
+}
+p {
+  font-family: 'cormorant_garamond', serif !important;
+  font-size: large !important;
+}
+header .social {
+  margin: 24px 0;
+  padding: 0;
+  font-size: 30px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+header .social li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0;
+}
+header .social li a { color: #fff; }
+header .social li a:hover { color: #11ABB0; }
+
+.rounded {
+  border-radius: 50% !important;
+  margin-top: 8% !important;
+  margin-left: 8% !important;
+}
